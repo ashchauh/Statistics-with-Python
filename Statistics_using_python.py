@@ -66,22 +66,7 @@ late['assignment1_grade'].mean()
 late.mean()
 from scipy import stats
 stats.ttest_ind
-
-
-# In[123]:
-
-
 stats.ttest_ind(early['assignment1_grade'], late['assignment1_grade'])
-
-
-# In[124]:
-
-
 stats.ttest_ind(early['assignment2_grade'], late['assignment2_grade'])
 
-
-# In[126]:
-
-
 get_ipython().magic('pinfo stats.ttest_ind')
-
