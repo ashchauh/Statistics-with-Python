@@ -37,16 +37,8 @@ mu, sigma = 0, 0.1 # mean and standard deviation
 n=np.random.normal(mu, sigma, 1000)
 a=np.random.normal(0.75,size=1000)
 np.std(a)
-
 stats.kurtosis(a)
-
-
-# In[87]:
-
-
 stats.skew(a)
-
-
 # # Chi squared distributions
 chi_squared=np.random.chisquare(2,size=1000)
 stats.skew(chi_squared)
